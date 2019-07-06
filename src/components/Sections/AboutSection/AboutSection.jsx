@@ -8,7 +8,7 @@ import SocialIcons from '../../SocialIcons';
  * @author Andrew Dyer <andrewdyer@outlook.com>
  */
 const AboutSection = () => (
-    <ResumeSection>
+    <ResumeSection name="about">
         <div className="w-100">
             <h1 className="mb-0">
                 Clarence
