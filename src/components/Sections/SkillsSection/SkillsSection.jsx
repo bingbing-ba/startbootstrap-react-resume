@@ -9,7 +9,7 @@ import TechnologiesList from '../../TechnologiesList';
  * @author Andrew Dyer <andrewdyer@outlook.com>
  */
 const SkillsSection = () => (
-    <ResumeSection>
+    <ResumeSection name="skills">
         <div className="w-100">
             <SectionHeading heading="Skills" />
             <SectionSubHeading subHeading="Programming Languages &amp; Tools" />

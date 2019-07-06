@@ -7,7 +7,7 @@ import { ResumeSection, SectionHeading } from '../../common';
  * @author Andrew Dyer <andrewdyer@outlook.com>
  */
 const InterestsSection = () => (
-    <ResumeSection>
+    <ResumeSection name="interests">
         <div className="w-100">
             <SectionHeading heading="Interests" />
             <p>

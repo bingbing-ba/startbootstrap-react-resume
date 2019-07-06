@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Collapse, Nav, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink } from 'reactstrap';
+import { Link } from 'react-scroll';
 
 /**
  * Navigation
@@ -32,22 +33,49 @@ class Navigation extends Component {
                 <Collapse isOpen={this.state.isOpen} navbar>
                     <Nav navbar>
                         <NavItem>
-                            <NavLink>About</NavLink>
+                            <NavLink tag={Link} to="about" spy={true} smooth={true} duration={500}>
+                                About
+                            </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink>Experience</NavLink>
+                            <NavLink
+                                tag={Link}
+                                to="experience"
+                                spy={true}
+                                smooth={true}
+                                duration={500}>
+                                Experience
+                            </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink>Education</NavLink>
+                            <NavLink
+                                tag={Link}
+                                to="education"
+                                spy={true}
+                                smooth={true}
+                                duration={500}>
+                                Education
+                            </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink>Skills</NavLink>
+                            <NavLink tag={Link} to="skills" spy={true} smooth={true} duration={500}>
+                                Skills
+                            </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink>Interests</NavLink>
+                            <NavLink
+                                tag={Link}
+                                to="interests"
+                                spy={true}
+                                smooth={true}
+                                duration={500}>
+                                Interests
+                            </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink>Awards</NavLink>
+                            <NavLink tag={Link} to="awards" spy={true} smooth={true} duration={500}>
+                                Awards
+                            </NavLink>
                         </NavItem>
                     </Nav>
                 </Collapse>

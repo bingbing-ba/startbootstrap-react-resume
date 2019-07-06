@@ -8,7 +8,7 @@ import AwardsListItem from './AwardsListItem';
  * @author Andrew Dyer <andrewdyer@outlook.com>
  */
 const AwardsSection = () => (
-    <ResumeSection>
+    <ResumeSection name="awards">
         <div className="w-100">
             <SectionHeading heading="Awards &amp; Certifications" />
             <ul className="fa-ul mb-0">
